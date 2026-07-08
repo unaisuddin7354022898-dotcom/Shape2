@@ -336,7 +336,14 @@ footer{
 /* ===== RESPONSIVE ===== */
 
 @media(max-width:992px){
+.hero{
+    min-height:auto;
+    padding:60px 0 40px;
+}
 
+.hero-container{
+    gap:30px;
+}
 .hero-container{
     flex-direction:column;
     text-align:center;
